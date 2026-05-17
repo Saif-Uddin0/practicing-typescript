@@ -8,5 +8,9 @@ type C = A extends number? true: B extends undefined? true : false
 type RichPeopleVehicle ={
     bike: string,
     car: string,
-    ship: str
+    ship: string;
 }
+
+type CheckVehicyle <T>= T extends  keyof  RichPeopleVehicle ? true : false
+
+type HasBike = CheckVehicyle<"shp">
