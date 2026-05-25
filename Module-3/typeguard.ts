@@ -26,4 +26,4 @@ type AdminUser ={
     role: "Admin"
 }
 
-const userInfo = 
+const userInfo = ()
