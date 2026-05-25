@@ -7,6 +7,8 @@ class BankAccout {
     public Username: string;
     protected userBalalnce: number;
 
+    
+
     constructor(userId: number,Username: string,userBalalnce: number) {
         this.userId = userId;
         this.Username = Username;
@@ -26,8 +28,8 @@ class BankAccout {
         this.userBalalnce = this.userBalalnce + amount ;
     }
 
-    // get korbo
 
+    // get korbo
     // getBalance(){
     //     return this.userBalalnce
     // }
