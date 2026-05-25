@@ -23,3 +23,16 @@ class nextLevelDev extends Person{
         
     }
 }
+
+
+
+const getSleeping  =(param: Person)=>{
+   return param.getSleep()
+}
+
+const person1 = new Person();
+const person2 = new student();
+const person3 = new nextLevelDev();
+
+
+getSleeping(person2);
